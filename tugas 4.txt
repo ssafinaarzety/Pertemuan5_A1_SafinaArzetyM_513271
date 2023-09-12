@@ -1,0 +1,8 @@
+banyak_data = int(input("Masukan banyak data:"))
+jumlah = 0
+ 
+for i in range(banyak_data):
+	data = int(input("Masukkan data ke-{}: ".format(i+ banyak_data))) 
+	jumlah =+ data
+rata_rata = jumlah / banyak_data 
+print("Rata-rata data: {:.2f}".format(rata_rata))
